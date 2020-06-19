@@ -1,0 +1,45 @@
+
+
+//margin
+
+@for $i from 0 through 20 {
+    .mb-#{$i}{
+        margin-bottom: 4px*$i;
+    }
+
+    .mr-#{$i}{
+        margin-right: 4px*$i;
+    }
+}
+
+// font
+
+.font-1{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.font-2{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.font-3{
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.font-4{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.font-5{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.font-6{
+    font-size: 14px;
+    line-height: 16px;
+}

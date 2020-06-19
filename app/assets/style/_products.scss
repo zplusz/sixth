@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #F2F2F2;
+    padding: 24px 0;
+    .active{
+        color: #0E8A00;
+    }
+}
+
+.products{
+    padding-top: 48px;
+    .img-1{
+        min-height: 240px;
+    }
+    .img-2{
+        min-height: 350px;
+    }
+    .img-3{
+        min-height: 480px;
+    }
+    img{
+        position: relative;
+        height: 100%;
+    }
+    .saleprice{
+        color: #00000062;
+        margin-left: 8px;
+    }
+    .onsale{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        font-size: 14px;
+        line-height: 21px;;
+    }
+    .choosepage{
+        color: #0E8A00;
+        text-decoration:underline;
+    }
+}

@@ -1,0 +1,21 @@
+.done{
+    padding-top: 24px;
+    position: relative;
+    img{
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .welldone{
+        margin-top: 215px;
+        font-size: 48px;
+        line-height: 64px;
+        font-weight: bolder;
+    }
+    .btn-shopping{
+        width: 256px;
+        height: 56px;
+    }
+}

@@ -1,0 +1,117 @@
+.productdetail{
+    padding-top: 48px;
+    flex-wrap: nowrap;
+    position: relative;
+    .productpic{
+       position: relative;
+       width: 100%;
+       height: 442px;
+    }
+    .onsale{
+        position: absolute;
+        top: 16px;
+        left: 31px;
+    }
+    .productdetail-item{
+        padding: 32px 0 32px 32px;
+        width: 445px;
+        height: 298px;
+        position: absolute;
+        top: 72px;
+        right: 120px;
+   
+    }
+    .name{
+        font-size: 48px;
+        line-height: 57px;
+        color: #121212;
+        font-weight: bolder;
+        margin-top: 16px;
+        margin-bottom: 15px;
+    }
+    .saleprice{
+        color: #00000062;
+    }
+    .count{
+        background-color: #F2F2F2;
+        width: 140px;
+        height: 56px;
+        padding: 16px;
+        border-radius: 4px;
+    }
+}
+.alsolike{
+    .title{
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: bold;
+    }
+}
+
+.modal{
+    .modal-dialog{
+        position: fixed;
+        right:0;
+        margin: auto;
+        width: 650px;
+        height: 100%;
+        transform: translate3d(0%, 0, 0); 
+    }
+    .modal-content {
+        height: 100%;
+		overflow-y: auto;
+        padding: 54px 48px 0 48px;
+    }
+    .modal-header {
+		border-bottom: none;
+	}
+    .modal-footer{
+        border-top:none;
+    }
+    .modal-title{
+        font-size: 48px;
+        line-height: 64px;
+        font-weight: bold;
+        // padding-top: 24px;
+        // padding-left: 28px;
+    }
+    .close-lg-icon{
+        width: 48px;
+        height: 48px;
+        font-size: 48px;
+    }
+    .body-item{
+        height: 112px;
+        img{
+            width: 112px;
+        }
+        .list{
+            background-color: #F2F2F2;
+            padding: 16px;
+            .title{
+                font-size: 16px;
+                line-height: 36px;
+                counter-reset: #121212;
+            }
+            .saleprice{
+                font-size: 14px;
+                line-height: 21px;
+                color: #00000062;
+            }
+        }
+    }
+    .total{
+        padding-left: 112px;
+        margin-top: 24px;
+        font-size: 16px;
+        line-height: 36px;
+        .checkout{
+            height: 56px;
+            p{
+                margin-top: 8px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}

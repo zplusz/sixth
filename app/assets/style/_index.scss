@@ -1,0 +1,110 @@
+
+.toppic{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 800px;
+    background-image: url(../images/toppic.jpeg);
+    z-index: -999;
+}
+.colorlight{
+    a{
+        color:white;
+        &:hover{
+            color:white;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .toppic{
+        width: 100%;
+    }
+}
+
+.enjoy{
+    padding-top: 159px;
+    padding-bottom: 72px;
+    .title{
+        font-size: 48px;
+        line-height: 64px;
+        font-family: Roboto;
+        font-weight: 500;
+    }
+    .btnshopnow{
+        width: 160px;
+        height: 56px;
+        margin-bottom: 308px;
+        p{
+            margin-top: 7px;
+        }
+    }
+    .describe{
+        width: 350px;
+    }
+}
+
+.artdirector{
+    height: 400px;
+    background-image: url(../images/4.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:cover;
+    padding: 150px 0;
+    .title{
+        color: white;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .name{
+        color: white;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .community {
+        font-size: 14px;
+        line-height: 16px;
+        li:nth-child(1){
+            margin-right: 23px;
+        }
+    }
+}
+
+.productslide{
+    .saleprice{
+        color: #00000062;
+        margin-left: 8px;
+    }
+    .onsale{
+        font-size: 14px;
+        line-height: 21px;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+}
+
+.box{
+    white-space: nowrap;/*文本不会换行，文本会在在同一行上继续*/
+    overflow:auto;/*可滑动*/
+    &::-webkit-scrollbar{
+    display: none;
+    }
+}
+
+.box1{
+    margin-right: 30px;
+    display: inline-block;/*行内块元素*/
+    position: relative;
+    img{
+        height: 350px;
+         width: 350px;
+    }
+}
+
+
+
+
+
+

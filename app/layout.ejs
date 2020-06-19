@@ -5,54 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%- title %></title>
+    <title>sixth</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
-
+  <!-- <%- light %> -->
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-
+    <header class="header">
+      <ul class="d-flex justify-content-between container">
+        <a href="index.html"><h1 class="text-primary">Craftsman</h1></a>
+        <li class="">
+          <ul class="d-flex  <%- light %> ">
+            <li class="mr-12"><a class="text" href="products.html">Product</a></li>
+            <li class="mr-12"><a class="text" href="">Blog</a></li>
+            <li class="mr-12"><a class="text" href="">Contact</a></li>
+            <li><a class="text" href=""><span class="material-icons ">shopping_cart</span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    
     <%- contents %>
-
-    <footer class="footer">
-      footer
+    <div class="subscribe">
+      <ul class="container">
+        <li class="title mb-12">Subscribe for news <br> and special offers!</li>
+        <li class="row">
+          <div class="col-5 input-group mb-3 ">
+            <input type="text" class="form-control btn btn-outline-white-2 emailinput font-2" placeholder="Your email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-secondary emailbtn font-2" type="button" id="button-addon2">Subscribe</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <footer class="footer bg-primary">
+      <ul class="d-flex justify-content-between container">
+        <li class="d-flex">
+          <a class="mr-4" href="index.html"><h1 class="text-white">Craftsman</h1></a>
+          <p class="text">© 2020. All Rights Reserved.</p>
+        </li>
+        <li>
+          <ul class="d-flex">
+            <li class="mr-12"><a class="text" href="">Purchase Policy</a></li>
+            <li class="mr-12"><a class="text" href="">Privacy Policy</a></li>
+            <li><a class="text" href="">Terms & Conditions</a></li>
+          </ul>
+        </li>
+      </ul>
+      
     </footer>
 
     <script src="./assets/js/vendors.js"></script>

@@ -1,0 +1,51 @@
+h1{
+    font-size: 24px;
+    line-height: 29px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.header{
+    padding: 24px 0;
+    .text{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    a:hover{
+        color: black;
+    }
+}
+
+.subscribe{
+    background-image: url(../images/8.jpeg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:0 50%;
+    height: 400px;
+    padding: 84px 0;
+    .title{
+        font-size: 48px;
+        line-height: 64px;
+        color: white;
+    }
+    .emailinput{
+        width: 286px;
+        height: 56px;
+        color: #FFFFFF99;
+    }
+    .emailbtn{
+        height: 56px;
+        width: 160px;
+    }
+}
+
+.footer{
+    padding: 32px 0; 
+    .text{
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 7px;
+        color: #FFFFFFDE;
+    }
+}
+
