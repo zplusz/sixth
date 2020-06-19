@@ -1,6 +1,4 @@
 "use strict";
 
-$(document).ready(function () {
-  console.log('Hello Bootstrap4');
-});
+$(document).ready(function () {});
 //# sourceMappingURL=all.js.map
