@@ -12034,6 +12034,10 @@ h1 {
   line-height: 19px;
 }
 
+.header a {
+  color: black;
+}
+
 .header a:hover {
   color: black;
 }
@@ -12214,7 +12218,7 @@ h1 {
 }
 
 .products .img-3 {
-  min-height: 480px;
+  height: 480px;
 }
 
 .products img {
