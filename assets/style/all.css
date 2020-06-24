@@ -12209,16 +12209,26 @@ h1 {
   padding-top: 48px;
 }
 
-.products .img-1 {
-  min-height: 240px;
+.products .bigimg {
+  height: 489px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.products .img-2 {
-  min-height: 350px;
+.products .mediumimg {
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.products .img-3 {
-  height: 480px;
+.products .smallimg {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.products .card {
+  margin-bottom: 48px;
 }
 
 .products img {
