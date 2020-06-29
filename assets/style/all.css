@@ -12090,11 +12090,11 @@ h1 {
   z-index: -999;
 }
 
-.colorlight a {
+.light a {
   color: white;
 }
 
-.colorlight a:hover {
+.light a:hover {
   color: white;
 }
 
@@ -12196,6 +12196,14 @@ h1 {
   width: 350px;
 }
 
+.dark a {
+  color: black;
+}
+
+.dark a:hover {
+  color: black;
+}
+
 .navbar {
   background-color: #F2F2F2;
   padding: 24px 0;
@@ -12252,6 +12260,14 @@ h1 {
 .products .choosepage {
   color: #0E8A00;
   text-decoration: underline;
+}
+
+.dark a {
+  color: black;
+}
+
+.dark a:hover {
+  color: black;
 }
 
 .productdetail {
